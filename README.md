@@ -82,8 +82,7 @@ Set up these credentials inside n8n:
 1. Clone the repo:
    ```bash
    git clone https://github.com/<your-org-or-user>/n8n-job-hunter-agent.git
-   cd n8n-job-hunter-agent
-````
+   cd n8n-job-hunter-agent```
 
 2. Import workflow:
 
@@ -107,7 +106,7 @@ Set up these credentials inside n8n:
 
 ## 🔍 Workflow Overview
 
-```mermaid
+```
 flowchart LR
   A[Schedule Trigger] --> B[Config (env vars)]
   B --> C[Build Searches]
@@ -139,12 +138,6 @@ flowchart LR
 * No secrets are in this repo.
 * All sensitive values come from env vars or n8n Credentials.
 * Recommended: disable execution data logging in workflow settings.
-
----
-
-## 📝 License
-
-MIT — see `LICENSE`.
 
 ---
 
